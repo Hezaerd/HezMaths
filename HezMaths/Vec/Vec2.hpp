@@ -2,7 +2,7 @@
 
 #include <ostream>
 
-namespace MGLMaths
+namespace HezMaths
 {
 	class Vec2f
 	{

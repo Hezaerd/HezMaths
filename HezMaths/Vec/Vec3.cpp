@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <string>
 
-namespace MGLMaths
+namespace HezMaths
 {
     Vec3f::Vec3f(float pX, float pY, float pZ) : x(pX), y(pY), z(pZ) {}
     Vec3f::Vec3f(float pX) : x(pX), y(pX), z(pX) {}

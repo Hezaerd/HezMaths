@@ -5,7 +5,7 @@
 #include <string>
 #include <algorithm>
 
-namespace MGLMaths
+namespace HezMaths
 {
     Vec4f::Vec4f(float pX, float pY, float pZ, float pW) : x(pX), y(pY), z(pZ), w(pW) {}
     Vec4f::Vec4f(float pX) : x(pX), y(pX), z(pX), w(pX) {}

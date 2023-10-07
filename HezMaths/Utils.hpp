@@ -4,7 +4,7 @@
 #define EPSILON 0.00001f
 #define HALF_CIRCLE 180.0f
 
-namespace MGLMaths
+namespace HezMaths
 {
 	const double toRadians(const double& pDegrees);
 	const double toDegrees(const double& pRadians);

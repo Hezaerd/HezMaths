@@ -1,7 +1,7 @@
 #pragma once
 #include "../Vec/Vec3.hpp"
 
-namespace MGLMaths
+namespace HezMaths
 {
     class Mat4f;
     class Mat3f

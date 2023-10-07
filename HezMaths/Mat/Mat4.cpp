@@ -6,7 +6,7 @@
 #include <string>
 #include "Utils.hpp"
 
-namespace MGLMaths
+namespace HezMaths
 {
 	Mat4f::Mat4f(const Vec4f& pRow0, const Vec4f& pRow1, const Vec4f& pRow2, const Vec4f& pRow3)
 	{

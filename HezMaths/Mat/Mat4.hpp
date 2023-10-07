@@ -5,7 +5,7 @@
 
 #include <ostream>
 
-namespace MGLMaths
+namespace HezMaths
 {
     class Mat4f
     {

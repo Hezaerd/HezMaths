@@ -1,7 +1,7 @@
 #include "Mat3.hpp"
 #include "Mat4.hpp"
 
-namespace MGLMaths
+namespace HezMaths
 {
     Mat3f::Mat3f()
     {

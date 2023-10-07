@@ -2,7 +2,7 @@
 
 #include <random>
 
-namespace MGLMaths
+namespace HezMaths
 {
 	const double toRadians(const double& pDegrees)
 	{

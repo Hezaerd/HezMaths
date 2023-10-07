@@ -4,7 +4,7 @@
 #include <stdexcept>
 #include <string>
 
-namespace MGLMaths
+namespace HezMaths
 {
 	Vec2f::Vec2f(float pX, float pY) : x(pX), y(pY) {}
 	Vec2f::Vec2f(float pX) : x(pX), y(pX) {}
