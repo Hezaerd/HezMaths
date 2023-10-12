@@ -267,11 +267,6 @@ namespace HezMaths
 		return result;
 	}
 
-	const float* Mat4f::GetPointer() const
-	{
-		return &data[0].x;
-	}
-
 	Mat4f Mat4f::Transform(const Vec3f& pPosition, const Vec3f& pRotation, const Vec3f& pScale)
 	{
 		Mat4f result;
@@ -430,5 +425,10 @@ namespace HezMaths
 	void Mat4f::Inverse()
 	{
 		*this = Inverse(*this);
+	}
+
+	const float* Mat4f::GetPointer() const
+	{
+		return &data[0].x;
 	}
 }
